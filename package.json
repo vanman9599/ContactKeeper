@@ -1,0 +1,22 @@
+{
+  "name": "ContactKeeper",
+  "version": "1.0.0",
+  "description": "Contact Keeper MERN APP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js", 
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanman9599/ContactKeeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanman9599/ContactKeeper/issues"
+  },
+  "homepage": "https://github.com/vanman9599/ContactKeeper#readme"
+}
