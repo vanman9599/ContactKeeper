@@ -4,9 +4,12 @@
   "description": "Contact Keeper MERN APP",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js", 
+    "start": "node server.js",
     "server": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "client": "npm start --prefix client", 
+    "clientinstall": "npm install --prefix client", 
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/vanman9599/ContactKeeper/issues"
   },
-  "homepage": "https://github.com/vanman9599/ContactKeeper#readme"
+  "homepage": "https://github.com/vanman9599/ContactKeeper#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
 }
