@@ -7,7 +7,7 @@ import {
     FILTER_CONTACTS,
     CLEAR_FILTER
 } from '../types'
-import ContactState from './ContactState'
+
 
 export default (state, action) => {
     switch (action.type) {

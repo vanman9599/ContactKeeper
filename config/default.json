@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://vanman9599:Canopy-9m-ok@blog.isxa6.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", 
+    "mongoURI": "mongodb+srv://vanman9599:Canopy-9m-ok@cluster0.7dmfv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", 
     "jwtSecret": "somesecret"
 }
